@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00C074A0FC953A000017748 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		C00C07DF0FC9593300017748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00C07DE0FC9593300017748 /* Foundation.framework */; };
+		C0214B3C10AF2DC900E866CE /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = C0214B3B10AF2DC900E866CE /* Background.png */; };
+		C04F99AF1077742C00C961AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04F99AE1077742C00C961AD /* CoreGraphics.framework */; };
+		C077E541106ADA5300717F55 /* JPClockWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = C077E540106ADA5300717F55 /* JPClockWidget.m */; };
+		C077E6CE106C2E6E00717F55 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C077E6CD106C2E6E00717F55 /* Icon.png */; };
+		D131117810CCE9980022C00E /* JPDate.m in Sources */ = {isa = PBXBuildFile; fileRef = D131117710CCE9980022C00E /* JPDate.m */; };
+		D165457610D0048500094327 /* PreferenceSpecifiers.plist in Resources */ = {isa = PBXBuildFile; fileRef = D165457510D0048500094327 /* PreferenceSpecifiers.plist */; };
+		D1D797BA10CD704300A0EB3D /* holiday.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D797B910CD704300A0EB3D /* holiday.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C00C07DE0FC9593300017748 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0214B3B10AF2DC900E866CE /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		C04F99AE1077742C00C961AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C077E53F106ADA5300717F55 /* JPClockWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPClockWidget.h; sourceTree = "<group>"; };
+		C077E540106ADA5300717F55 /* JPClockWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPClockWidget.m; sourceTree = "<group>"; };
+		C077E591106ADAE900717F55 /* JPClock_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPClock_Prefix.pch; sourceTree = "<group>"; };
+		C077E6CD106C2E6E00717F55 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C08DD36A1072A0F000E7DE40 /* SmartScreenWidgetProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartScreenWidgetProtocol.h; sourceTree = "<group>"; };
+		C09D340D107E1886000C7945 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = English; path = English.lproj/PreferenceSpecifiers.plist; sourceTree = "<group>"; };
+		D131117610CCE9980022C00E /* JPDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDate.h; sourceTree = "<group>"; };
+		D131117710CCE9980022C00E /* JPDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDate.m; sourceTree = "<group>"; };
+		D165458710D0057E00094327 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Japanese; path = Japanese.lproj/PreferenceSpecifiers.plist; sourceTree = "<group>"; };
+		D1D7974310CD35AF00A0EB3D /* JPClock.wdgt */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPClock.wdgt; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D797B910CD704300A0EB3D /* holiday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holiday.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00C07490FC953A000017748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00C07DF0FC9593300017748 /* Foundation.framework in Frameworks */,
+				C00C074A0FC953A000017748 /* UIKit.framework in Frameworks */,
+				C04F99AF1077742C00C961AD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* MobileEnhancerModule */ = {
+			isa = PBXGroup;
+			children = (
+				C077E53E106ADA4300717F55 /* Sources */,
+				C077E58A106ADA9500717F55 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = MobileEnhancerModule;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C04F99AE1077742C00C961AD /* CoreGraphics.framework */,
+				C00C07DE0FC9593300017748 /* Foundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1D7974310CD35AF00A0EB3D /* JPClock.wdgt */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C077E53E106ADA4300717F55 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D131117610CCE9980022C00E /* JPDate.h */,
+				D131117710CCE9980022C00E /* JPDate.m */,
+				C08DD36A1072A0F000E7DE40 /* SmartScreenWidgetProtocol.h */,
+				C077E53F106ADA5300717F55 /* JPClockWidget.h */,
+				C077E540106ADA5300717F55 /* JPClockWidget.m */,
+				C077E591106ADAE900717F55 /* JPClock_Prefix.pch */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		C077E58A106ADA9500717F55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1D797B910CD704300A0EB3D /* holiday.png */,
+				C0214B3B10AF2DC900E866CE /* Background.png */,
+				C077E6CD106C2E6E00717F55 /* Icon.png */,
+				D165457510D0048500094327 /* PreferenceSpecifiers.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00C07410FC953A000017748 /* JPClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00C074D0FC953A000017748 /* Build configuration list for PBXNativeTarget "JPClock" */;
+			buildPhases = (
+				C00C07420FC953A000017748 /* Resources */,
+				C00C07440FC953A000017748 /* Sources */,
+				C00C07490FC953A000017748 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPClock;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = MobileEnhancerModule;
+			productReference = D1D7974310CD35AF00A0EB3D /* JPClock.wdgt */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "JPClock" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				ru,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* MobileEnhancerModule */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00C07410FC953A000017748 /* JPClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00C07420FC953A000017748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C077E6CE106C2E6E00717F55 /* Icon.png in Resources */,
+				D165457610D0048500094327 /* PreferenceSpecifiers.plist in Resources */,
+				C0214B3C10AF2DC900E866CE /* Background.png in Resources */,
+				D1D797BA10CD704300A0EB3D /* holiday.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00C07440FC953A000017748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C077E541106ADA5300717F55 /* JPClockWidget.m in Sources */,
+				D131117810CCE9980022C00E /* JPDate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D165457510D0048500094327 /* PreferenceSpecifiers.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09D340D107E1886000C7945 /* English */,
+				D165458710D0057E00094327 /* Japanese */,
+			);
+			name = PreferenceSpecifiers.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+		C00C074E0FC953A000017748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JPClock_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Clock;
+				WRAPPER_EXTENSION = wdgt;
+			};
+			name = Debug;
+		};
+		C00C074F0FC953A000017748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JPClock_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = JPClock;
+				WRAPPER_EXTENSION = wdgt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "JPClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00C074D0FC953A000017748 /* Build configuration list for PBXNativeTarget "JPClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00C074E0FC953A000017748 /* Debug */,
+				C00C074F0FC953A000017748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
